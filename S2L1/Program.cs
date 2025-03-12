@@ -104,7 +104,7 @@ do
                     int D = 0;
                     while (!isDInputed)
                     {
-                        Console.Write("Введіть цифру A: ");
+                        Console.Write("Введіть цифру D: ");
                         D = int.Parse(Console.ReadLine());
                         if (D < 10 & D >= 0) isDInputed = true;
                         else Console.WriteLine("Ви ввели некоректу цифру");
